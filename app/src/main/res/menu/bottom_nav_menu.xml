@@ -11,6 +11,6 @@
         android:icon="@drawable/newreminder_img"
         android:title="@string/title_dashboard" />
 
-    
+
 
 </menu>
