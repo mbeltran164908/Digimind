@@ -7,8 +7,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingVertical="10dp"
-        android:background="@drawable/round_background"
+        android:paddingVertical="20dp"
+        android:background="@drawable/fondo"
         android:orientation="vertical">
 
         <TextView
@@ -18,18 +18,19 @@
             android:fontFamily="sans-serif-condensed"
             android:text="Practice"
             android:gravity="center"
-            android:textColor="@color/colorTextoActividad"
-            android:textSize="20sp" />
+            android:textColor="@color/colorTextoGrid"
+            android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/tx_desc"
+            android:id="@+id/tx_days"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="17dp"
             android:fontFamily="sans-serif-condensed-light"
             android:text="Everyday"
             android:gravity="center"
-            android:textColor="@color/colorTextoActividad"
-            android:textSize="15sp" />
+            android:autoSizeTextType="uniform"
+            android:textColor="@color/colorTextoGrid"
+            android:textSize="10sp" />
 
         <TextView
             android:id="@+id/tx_hora"
@@ -38,8 +39,8 @@
             android:fontFamily="sans-serif-condensed-medium"
             android:text="17:00"
             android:gravity="center"
-            android:textColor="@color/colorTextoActividad"
-            android:textSize="22sp" />
+            android:textColor="@color/colorTextoGrid"
+            android:textSize="14sp" />
     </LinearLayout>
 
 </LinearLayout>

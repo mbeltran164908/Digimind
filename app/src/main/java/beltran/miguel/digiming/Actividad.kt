@@ -1,3 +1,3 @@
 package beltran.miguel.digiming
 
-data class Actividad(val titulo:String,val desc:String,val hora:String)
+data class Actividad(val titulo:String,val days:ArrayList<String>,val hora:String)
